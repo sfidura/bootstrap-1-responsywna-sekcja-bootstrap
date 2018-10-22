@@ -1,0 +1,44 @@
+*{
+    color: #878482;
+    font-family: "Verdana";
+    font-size: 1rem;
+}
+
+.custom-container{
+    height: 100vh;
+}
+
+section > header > h1{
+    font-size: 2rem;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+section > header > h1::after{
+    content: " ";
+    display: block;
+    border-bottom: 1px solid #878482;
+    width: 130%;
+    position: absolute;
+    margin-top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+section > div > div > span{
+    font-size: 2.5rem;
+}
+
+section > div > div > p{
+    font-size: 0.8rem;
+}
+
+section > div > div > span > i:nth-of-type(1){
+    color: #F7F2EE;
+    
+}
+
+section > div > div > span > i:nth-of-type(2){
+    color: darkorange;
+    font-size: 3rem;
+}
